@@ -66,6 +66,20 @@ This project focuses on classifying fish images into multiple species using deep
 - Displays the predicted class name and confidence score.
 
 ---
+## Download Dataset and Trained Model
+
+To keep this repository lightweight, the dataset and trained model are hosted externally on Google Drive.
+
+🔗 **[Open Google Drive Folder]([https://drive.google.com/drive/folders/YOUR_FOLDER_ID_HERE?usp=sharing](https://drive.google.com/drive/folders/1-c9RF9gL8-NsMmAinn2OsM_AMNaB2ScR?usp=sharing))**
+
+The Drive folder contains:
+- `data/` -> with `train`, `val`, and `test` subfolders  
+- best model file -> `final_best_model_finetuned.h5`  
+   
+
+### Setup Instructions
+1. Download the Drive folder or individual files.
+2. Place them inside your project root so the structure looks like:
 
 ## Requirements
 - tensorflow
